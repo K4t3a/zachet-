@@ -8,8 +8,8 @@ app.use(express.json());
 app.use(express.static(path.join(__dirname, 'public')));
 
 const keywords = {
-    "study": ["https://ithub.ru/", "https://example.com"],
-    "js": ["https://developer.mozilla.org/en-US/docs/Web/JavaScript"]
+    "study": ["https://ithub.ru/", "https://ithub.ru/franchises"],
+    "js": ["https://developer.mozilla.org/en-US/docs/Web/JavaScript", "https://learn.javascript.ru/"]
 };
 
 app.get('/urls/:keyword', (req, res) => {
