@@ -1,0 +1,16 @@
+{
+  "name": "keyword-server",
+  "version": "1.0.0",
+  "description": "Keyword client and server application",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "build": "echo 'Building...' && mkdir -p public && cp -r public/* ."
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "axios": "^0.21.1"
+  },
+  "author": "K4t3a",
+  "license": "ISC"
+}
