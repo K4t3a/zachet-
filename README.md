@@ -18,8 +18,8 @@
 - Express
 - Axios
 ## Запуск
-- npm install express
-- npm install axios
+Установите зависимости:
+- npm install
 - node app.js
 
 
